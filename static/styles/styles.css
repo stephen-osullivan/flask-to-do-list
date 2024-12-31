@@ -1,0 +1,56 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('images/to-do-list.webp'); /* Replace with your image URL */
+    background-size: cover; /* Make the image cover the whole page */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    height: 100vh; /* Make the body take full viewport height */
+    display: flex;
+    justify-content: center;
+}
+
+#app{
+    min-width: none;
+    max-width: 800px;
+    text-align: center;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: hsla(0, 0%, 100%, 0.8);
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+li {
+    padding: 10px;
+    margin: 5px 0;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+li form{
+    margin: auto;
+}
+
+li div {
+    flex: 1;
+    min-width: 0;
+    word-wrap: break-word; /* Prevent text from escaping the div */
+}
+
+button{
+    margin-left: 10px;
+    justify-content: right;
+    font-size: 1em;
+    background-color: lightcoral;
+    color: white;
+}
+form {
+    margin-top: 20px;
+    text-align: center;
+}
